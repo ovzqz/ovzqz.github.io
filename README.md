@@ -10,6 +10,7 @@ this is my review project.
 # Inspiration
 
 - [Dribbble](https://dribbble.com/)
+- [Mac](https://www.apple.com/ca/imac/)
 
 ## Content List
 - Top Bar / Header
@@ -20,7 +21,7 @@ this is my review project.
     - Logo
     - Overiew
     - Aplly
-- Body
+- Main Page
     - Program/ Name / new code
     - Porfolio
     - Descrpition / overview
