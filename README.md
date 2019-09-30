@@ -10,7 +10,7 @@ this is my review project.
 # Inspiration
 
 - [Dribbble](https://dribbble.com/)
-- [Apple] (https://apple.ca/)
+- [Apple](https://apple.ca/)
 
 ## Content List
 - Top Bar / Header
