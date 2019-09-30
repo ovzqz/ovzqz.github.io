@@ -1,0 +1,105 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+</style>
+
+html {
+  --background: #fff;
+  --foreground: #000;
+  --midground: #252525;
+  --altforeground: #717171;
+  --links: #56abff;
+}
+
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+a {
+  color: var(--foreground);
+}
+
+.actions {
+  background-color: var(--midground);
+  color: var(--background);
+}
+
+.product {
+  text-align: center;
+  line-height: 1.7;
+  padding: 1em 1em 18em 1em;
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.dark {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+.light {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.iphone11pro {
+  background-image: url(/img/iphone11pro.jpg);
+}
+.iphone11 {
+  background-image: url(/img/iphone11.jpg);
+}
+.watchv5 {
+  background-image: url(/img/applewatch.jpg);
+}
+
+
+
+.product-name {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.product-subpoint {
+  color: var(--altforeground);
+  font-size: 0.9em;
+}
+
+.product-links li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.product-links a {
+  color: var(--links);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.product-links a:hover {
+  text-decoration: underline;
+}
+.product-links a::after {
+  content: " >";
+}
+
+
+
+/* MEDIA QUERIES MUST GO AT THE BOTTOM */
+
+@media screen and (min-width: 900px) {
+  .actions {
+    background-color: red;
+  }
+
+  .all-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1325px) {
+  .all-products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
