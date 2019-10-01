@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
 
 
+/*----------General ----------*/
+
+
+
 html {
   --background: #fff;
   --foreground: #000;
@@ -44,9 +48,10 @@ a {
   color: var(--foreground);
 }
 
-.iphone11pro {
+.InteractionDesignandDevelopment {
   background-image: url(/img/iphone11pro.jpg);
 }
+
 .iphone11 {
   background-image: url(/img/iphone11.jpg);
 }
@@ -85,21 +90,21 @@ a {
 
 
 
-/* MEDIA QUERIES MUST GO AT THE BOTTOM */
+/* ----- MEDIA QUERIES MUST GO AT THE BOTTOM ----- */
 
 @media screen and (min-width: 900px) {
   .actions {
-    background-color: red;
+    background-color: black;
   }
 
-  .all-products {
+  .actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1325px) {
-  .all-products {
+  .actions {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
