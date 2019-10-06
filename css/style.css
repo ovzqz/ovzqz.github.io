@@ -90,7 +90,9 @@ a {
 
 
 
-/* ----- MEDIA QUERIES MUST GO AT THE BOTTOM ----- */
+/* ----- MEDIA ------ */
+
+
 
 @media screen and (min-width: 900px) {
   .actions {
@@ -108,3 +110,5 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+/* ----- MEDIA QUERIES MUST GO AT THE BOTTOM ----- */\
