@@ -29,8 +29,7 @@ this is my review project.
     - carrer 
     - Tuition
     - Apply
-    - find the right program for you
-- Foother
+- Footer
     - social media
     - contact us
     - Services
