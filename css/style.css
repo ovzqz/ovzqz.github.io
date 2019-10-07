@@ -74,7 +74,7 @@ body {
 .slider {
 	width: 100%;
 	height:100px;
-	background-image: url(img/overview.jpg);
+	background-image: url(/img/overview.jpg);
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,7 +186,6 @@ body {
 
 .footer {
   width: 100%;
-  var(--background);
 
 }
 
