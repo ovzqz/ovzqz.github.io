@@ -111,17 +111,11 @@ body {
 
 .boton {
   
-  display: inline-block;
+  display: block;
   text-align: center;
-  white-space: nowrap;
   background: #005293;
-  min-width: 23px;
-  padding-left: 11px;
-  padding-right: 11px;
-  padding-top: 4px;
-  padding-bottom: 4px;
   border-radius: 12px;
-  line-height: 1.33337;
+
 }
 
 .boton-name {
