@@ -19,11 +19,11 @@ a {
 }
 
 
-.navarea {
+.barra {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
-    "hamb logo cart" 
+    "igual logo apply" 
     "srch srch srch" 
     "menu menu menu";
 }
@@ -57,8 +57,8 @@ a {
   grid-area: logo;
   justify-self: center;
 }
-.hamb {
-  grid-area: hamb;
+.igual {
+  grid-area: igual;
   background-color: transparent;
   color: var(--background);
   border: none;
@@ -84,8 +84,8 @@ a {
 .menu {
   grid-area: menu;
 }
-.cart {
-  grid-area: cart;
+.apply {
+  grid-area: apply;
   background-color: transparent;
   border: none;
   justify-self: end;
@@ -182,11 +182,11 @@ a {
 
 @media screen and (min-width: 900px) {
 
-  .navarea {
+  .barra {
     grid-template-columns: 3em auto 3em 3em;
-    grid-template-areas: "logo menu srch cart";
+    grid-template-areas: "logo menu srch apply";
   }
-  .hamb {
+  .igual {
     display: none;
   }
   .toggle {
